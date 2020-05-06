@@ -1,0 +1,221 @@
+object Form1: TForm1
+  Left = 256
+  Height = 359
+  Top = 145
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 359
+  ClientWidth = 320
+  Color = clWhite
+  OnCreate = FormCreate
+  LCLVersion = '2.0.8.0'
+  object calculadora: TLabel
+    Left = 72
+    Height = 32
+    Top = 16
+    Width = 173
+    Caption = 'CALCULADORA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -24
+    Font.Name = 'Segoe UI Symbol'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object btn1: TButton
+    Left = 24
+    Height = 38
+    Top = 80
+    Width = 39
+    Caption = '1'
+    OnClick = btn1Click
+    TabOrder = 0
+  end
+  object btn2: TButton
+    Left = 80
+    Height = 38
+    Top = 80
+    Width = 39
+    Caption = '2'
+    OnClick = btn2Click
+    TabOrder = 1
+  end
+  object btn3: TButton
+    Left = 136
+    Height = 38
+    Top = 80
+    Width = 39
+    Caption = '3'
+    OnClick = btn3Click
+    TabOrder = 2
+  end
+  object btn4: TButton
+    Left = 24
+    Height = 38
+    Top = 136
+    Width = 39
+    Caption = '4'
+    OnClick = btn4Click
+    TabOrder = 3
+  end
+  object btn5: TButton
+    Left = 80
+    Height = 38
+    Top = 136
+    Width = 39
+    Caption = '5'
+    OnClick = btn5Click
+    TabOrder = 4
+  end
+  object btn6: TButton
+    Left = 136
+    Height = 38
+    Top = 136
+    Width = 39
+    Caption = '6'
+    OnClick = btn6Click
+    TabOrder = 5
+  end
+  object btn7: TButton
+    Left = 24
+    Height = 38
+    Top = 192
+    Width = 39
+    Caption = '7'
+    OnClick = btn7Click
+    TabOrder = 6
+  end
+  object btn8: TButton
+    Left = 80
+    Height = 38
+    Top = 192
+    Width = 39
+    Caption = '8'
+    OnClick = btn8Click
+    TabOrder = 7
+  end
+  object btn9: TButton
+    Left = 136
+    Height = 38
+    Top = 192
+    Width = 39
+    Caption = '9'
+    OnClick = btn9Click
+    TabOrder = 8
+  end
+  object btn0: TButton
+    Left = 24
+    Height = 38
+    Top = 256
+    Width = 151
+    Caption = '0'
+    OnClick = btn0Click
+    TabOrder = 9
+  end
+  object btnSoma: TButton
+    Left = 208
+    Height = 33
+    Top = 80
+    Width = 99
+    Caption = '+'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = btnSomaClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object btnMulti: TButton
+    Left = 208
+    Height = 33
+    Top = 168
+    Width = 99
+    Caption = 'X'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = btnMultiClick
+    ParentFont = False
+    TabOrder = 11
+  end
+  object btnDiv: TButton
+    Left = 208
+    Height = 33
+    Top = 208
+    Width = 99
+    Caption = '/'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = btnDivClick
+    ParentFont = False
+    TabOrder = 12
+  end
+  object btnSub: TButton
+    Left = 208
+    Height = 33
+    Top = 120
+    Width = 99
+    Caption = '-'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = btnSubClick
+    ParentFont = False
+    TabOrder = 13
+  end
+  object btnResultado: TButton
+    Left = 208
+    Height = 46
+    Top = 248
+    Width = 99
+    Caption = '='
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -21
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = btnResultadoClick
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 16
+    Top = 56
+    Width = 283
+    AutoSize = False
+    ParentColor = False
+    OnClick = Label1Click
+  end
+  object btnClear: TButton
+    Left = 24
+    Height = 38
+    Top = 312
+    Width = 283
+    Caption = 'CLEAR'
+    OnClick = btnClearClick
+    TabOrder = 15
+  end
+end
