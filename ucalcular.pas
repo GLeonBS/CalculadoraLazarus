@@ -152,7 +152,7 @@ end;
 
 procedure TForm1.btnSubClick(Sender: TObject);
 begin
-  valor1:= StrToInt(Label1.Caption);
+  valor1:= StrToInt64(Label1.Caption);
   operador:= '-';
   Label1.Caption := ' ';
 end;
